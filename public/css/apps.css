@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+.btn-5 {
+  color: #7cf07f;
+  background: none;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 1em;
+  padding: 1em 2em;
+  text-transform: inherit;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  font-weight: bold;
+}
+
+.btn-5:hover {
+  -webkit-animation: blinds 0.75s linear forwards;
+          animation: blinds 0.75s linear forwards;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #7cf07f), color-stop(25%, transparent)) 0 0/0.5em 0.5em, -webkit-gradient(linear, left bottom, left top, color-stop(50%, #88d6f3), color-stop(50%, transparent)) 0 0/1em 1em;
+  background: linear-gradient(0deg, #7cf07f 25%, transparent 25%) 0 0/0.5em 0.5em, linear-gradient(0deg, #88d6f3 50%, transparent 50%) 0 0/1em 1em;
+  color: #f07ced;
+}
+
+@-webkit-keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+@keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+.btn-6 {
+  color: #f9879b;
+  background: none;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 1em;
+  padding: 1em 2em;
+  text-transform: inherit;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  font-weight: bold;
+}
+
+.btn-6:hover {
+  -webkit-animation: pulse 1s ease-in infinite;
+          animation: pulse 1s ease-in infinite;
+  background: radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, transparent 50%) 0 0/1em 1em, radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, transparent 50%) 0.5em 0.5em/2em 2em;
+  color: #0bdcb7;
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    background-position: 0.66em 0.66em, -0.33em -0.33em;
+  }
+
+  100% {
+    background-size: 2em 2em, 1em 1em;
+    background-position: -1.5em -1.5em, -1em -1em;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    background-position: 0.66em 0.66em, -0.33em -0.33em;
+  }
+
+  100% {
+    background-size: 2em 2em, 1em 1em;
+    background-position: -1.5em -1.5em, -1em -1em;
+  }
+}
+
